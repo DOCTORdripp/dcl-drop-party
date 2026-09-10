@@ -1,0 +1,15 @@
+# Dependencies and generated Decentraland output
+node_modules/
+scene/node_modules/
+bin/
+scene/bin/
+
+# Local configuration and secrets
+.env
+.env.*
+
+# Temporary and editor files
+.tmp*
+*.log
+.DS_Store
+Thumbs.db

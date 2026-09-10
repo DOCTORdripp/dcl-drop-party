@@ -1,0 +1,9 @@
+node_modules/
+.bin/
+bin/
+.env
+.env.*
+.tmp*
+main.crdt
+main1.crdt
+*.log

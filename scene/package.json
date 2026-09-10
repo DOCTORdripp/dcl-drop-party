@@ -1,0 +1,23 @@
+{
+  "name": "drop-party-scene",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DropParty Decentraland multiplayer scene.",
+  "scripts": {
+    "start": "sdk-commands start",
+    "build": "sdk-commands build --production",
+    "build:dev": "sdk-commands build",
+    "deploy": "sdk-commands deploy --target-content https://worlds-content-server.decentraland.org",
+    "typecheck": "tsc --noEmit",
+    "server-logs": "sdk-commands sdk-server-logs"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@dcl/js-runtime": "7.27.1-33533530571.commit-451d001",
+    "@dcl/sdk": "7.27.1-33533530571.commit-451d001",
+    "@noble/curves": "^1.4.2",
+    "@noble/hashes": "^1.4.0"
+  }
+}
